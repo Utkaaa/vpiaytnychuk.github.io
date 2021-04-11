@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lab.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="SHORTCUT ICON" href="./img/favicon.ico" type="image/x-icon">
+    <title>Laboratory work 7</title>
+</head>
+
+<body>
+    <div class="menu">
+        <a href="./index.html"><img src="./img/logo.png" alt="logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html#about"> About me </a>
+                </li>
+                <li>
+                    <a href="./index.html#projects">Projects </a>
+                </li>
+                <li>
+                    <a href="./index.html#experience"> Work experience </a>
+                </li>
+                <li>
+                    <a href="./index.html#education"> Education </a>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <!-- main container -->
+    <div class="container lab-container">
+        <div class="lab">
+            <div class="tag-lab-main">Laboratory work 7</div>
+
+            <div class="main-wrap-shop-lab7">
+                <div class="shop-section1-lab7">
+                    <p class="category-shop-lab7">ВІДЕОКАРТИ</p>
+                    <hr>
+                    <div class="container-for-picture-shop-lab7">
+                        <img src="./img/lab7_picture/video-card.jpg" alt="video-card">
+                    </div>
+                    <div class="container-lisk-shop-lab7">
+                        <a href="https://hard.rozetka.com.ua/ua/msi_geforce_rtx_3080_suprim_x_10g/p263934046/" class="link-tag-shop-lab7" target="_blank">MSI PCI-Ex GeForce RTX 3080</a>
+                    </div>
+                    <button type="button" class="order-button-shop-lab7">НЕЗАБАРОМ У<br> ПРОДАЖІ</button>
+                </div>
+                <div class="shop-section2-lab7">
+                    <p class="category-shop-lab7">ПРОЦЕСОРИ</p>
+                    <hr>
+                    <div class="container-for-picture-shop-lab7">
+                        <img src="./img/lab7_picture/processor.jpg" alt="proccessor">
+                    </div>
+                    <div class="container-lisk-shop-lab7">
+                        <a href="https://hard.rozetka.com.ua/ua/intel_core_i7_9700_bx80684i79700/p111052576/" class="link-tag-shop-lab7" target="_blank">Intel Core i7-9700</a>
+                    </div>
+                    <p class="price-shop-lab7"><s>8 599 ₴</s> <b>7 338</b> ₴</p>
+                    <button type="button" class="order-button-shop-lab7">У КОРЗИНУ</button>
+                </div>
+                <div class="shop-section3-lab7">
+                    <p class="category-shop-lab7">ПАМ'ЯТЬ</p>
+                    <hr>
+                    <div class="container-for-picture-shop-lab7">
+                        <img src="./img/lab7_picture/memory.jpg" alt="memory">
+                    </div>
+                    <div class="container-lisk-shop-lab7">
+                        <a href="https://hard.rozetka.com.ua/ua/hyperx_hx432c16fb3k2_16/p114851137/" class="link-tag-shop-lab7" target="_blank">HyperX DDR4-3200 16384MB</a>
+                    </div>
+                    <p class="price-shop-lab7"><b>2 712</b> ₴</p>
+                    <button type="button" class="order-button-shop-lab7">У КОРЗИНУ</button>
+                </div>
+                <div class="shop-section4-lab7">
+                    <p class="category-shop-lab7">SSD</p>
+                    <hr>
+                    <div class="container-for-picture-shop-lab7">
+                        <img src="./img/lab7_picture/ssd.jpg" alt="ssd">
+                    </div>
+                    <div class="container-lisk-shop-lab7">
+                        <a href="https://hard.rozetka.com.ua/ua/samsung_mz_77e1t0bw/p274066608/" class="link-tag-shop-lab7" target="_blank">Samsung 870 Evo-Series 1TB</a>
+                        </div>
+                    <p class="price-shop-lab7"><b>899</b> ₴</p>
+                    <button type="button" class="order-button-shop-lab7">У КОРЗИНУ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span>&copy; Vitaliy Piatnychuk</span>
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/vitalik.piatnychuk.7" target="_blank"><img src='./img/facebook.png'
+                        alt="facebook icon" /></a></li>
+            <li><a href="https://www.tiktok.com/@vv_piarchuk_vv" target="_blank"><img src='./img/tiktok.png'
+                        alt="tiktok icon" /></a></li>
+            <li><a href="https://www.instagram.com/vv_piarchuk_vv/" target="_blank"><img src='./img/instagram.png'
+                        alt="instagram icon" /></a></li>
+        </ul>
+    </div>
+    <!--Scroll To Top-->
+    <a href="/#" class="scroll-top" style="display: none;"><i class="fa fa-chevron-up"></i></a>
+    <!-- Scroll To Top-->
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.scroll-top').fadeIn();
+            } else {
+                $('.scroll-top').fadeOut();
+            }
+        });
+        $('.scroll-top').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 0);
+            return false;
+        });
+    </script>
+</body>
+
+</html>

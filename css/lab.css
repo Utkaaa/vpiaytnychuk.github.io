@@ -911,3 +911,164 @@ form[name="calculator2"] {
   border: 2px solid #000000;
   background-color: #d5d5d5;
 }
+
+.main-wrap-shop-lab7 {
+  height: 476px;
+  width: 1018px;
+  border: 1px solid #dedede;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  position: relative;
+}
+
+.main-wrap-shop-lab7::before,
+.main-wrap-shop-lab7::after {
+  position: absolute;
+  content: "<";
+  height: 36px;
+  width: 36px;
+  left: -20px;
+  top: 85px;
+  border: 2px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 100%;
+  color: #dedede;
+  font-weight: bold;
+}
+
+.main-wrap-shop-lab7::after {
+  content: ">";
+  left: auto;
+  right: -20px;
+}
+
+.shop-section1-lab7,
+.shop-section2-lab7,
+.shop-section3-lab7,
+.shop-section4-lab7 {
+  height: 100%;
+  width: 254px;
+  border-right: 1px solid #dedede;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 18px;
+  padding-left: 18px;
+  text-align: center;
+  position: relative;
+}
+
+.shop-section4-lab7 {
+  border-right: none;
+}
+
+.main-wrap-shop-lab7 p[class="category-shop-lab7"] {
+  text-align: center;
+  color: #7f8697;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.main-wrap-shop-lab7 hr {
+  outline: none;
+  border: 1px solid #e5e5e5;
+}
+
+.shop-section1-lab7 img {
+  height: 90px;
+  width: 217px;
+}
+
+.shop-section2-lab7 img {
+  height: 150px;
+  width: 100px;
+  margin: auto;
+}
+
+.shop-section3-lab7 img {
+  width: 217px;
+  height: 150px;
+}
+
+.shop-section4-lab7 img {
+  width: 217px;
+  height: 150px;
+}
+
+.container-for-picture-shop-lab7 {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-wrap-shop-lab7 a {
+  text-decoration: none;
+  color: #0a9be1;
+  font-weight: bold;
+}
+
+.container-lisk-shop-lab7 {
+  height: 60px;
+}
+
+.main-wrap-shop-lab7 button {
+  position: absolute;
+  bottom: 40px;
+  left: 54.5px;
+  width: 145px;
+  height: 41px;
+  border: none;
+  outline: none;
+  background-color: #f0e524;
+  color: #000;
+  font-weight: bold;
+}
+
+.shop-section1-lab7 button {
+  background-color: #cc3399;
+  color: #fff;
+}
+
+.main-wrap-shop-lab7 button:hover {
+  opacity: 50%;
+}
+
+.shop-section1-lab7::after {
+  position: absolute;
+  content: "НОВИНКА";
+  width: 65px;
+  height: 65px;
+  background-color: #86b022;
+  top: -35px;
+  right: 10px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.shop-section3-lab7::after,
+.shop-section4-lab7::after {
+  position: absolute;
+  content: "ХІТ ПРОДАЖІВ";
+  width: 65px;
+  height: 65px;
+  background-color: #009de1;
+  top: -35px;
+  right: 10px;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
