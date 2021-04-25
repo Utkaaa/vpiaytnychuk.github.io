@@ -59,7 +59,7 @@ body {
 aside {
   width: 370px;
   height: auto;
-   background-color: #544e60;/* #1e2939 */
+  background-color: #544e60; /* #1e2939 */
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -251,22 +251,40 @@ img {
 }
 
 .social-icons {
-  margin-left: 20px;
   margin-top: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-.social-icons li {
-  display: inline-block;
-  list-style-type: none;
-}
-.social-icons li a {
-  border-bottom: none;
-}
-.social-icons li img {
+
+.social-icons div[class="bg-instagram"] {
   width: 40px;
   height: 40px;
-  margin-right: 20px;
-  background: no-repeat;
+  background-image: url(/img/css_sprites.png);
+  background-position: center;
+  background-size: auto 100%;
+  margin-left: -5px;
+}
+
+.social-icons div[class="bg-tiktok"] {
+  width: 40px;
+  height: 40px;
+  background-image: url(/img/css_sprites.png);
+  background-position: left;
+  background-size: auto 100%;
+  margin-left: -10px;
+}
+
+.social-icons div[class="bg-facebook"] {
+  width: 40px;
+  height: 40px;
+  background-image: url(/img/css_sprites.png);
+  background-position: right;
+  background-size: auto 100%;
+}
+
+.social-icons a {
+  height: 40px;
+  width: 40px;
 }
 
 .scroll-top {
