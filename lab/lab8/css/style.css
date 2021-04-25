@@ -20,7 +20,7 @@ body {
 header {
   height: 432px;
   width: 100%;
-  background-image: url("../lab/lab8/img/bg-01.jpg");
+  background-image: url("../img/bg-01.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position-y: center;
@@ -80,7 +80,7 @@ header #topbar li:hover {
 
 .main-container {
   background-color: #383838;
-  background-image: url("../lab/lab8/img/bg.png");
+  background-image: url("../img/bg.png");
 }
 /* Tour */
 #tour {
@@ -108,19 +108,19 @@ header #topbar li:hover {
 }
 
 .madrid {
-  background-image: url("../lab/lab8/img/tour/madrid.jpg");
+  background-image: url("../img/tour/madrid.jpg");
 }
 
 .turin {
-  background-image: url("../lab/lab8/img/tour/turin.jpg");
+  background-image: url("../img/tour/turin.jpg");
 }
 
 .hamburg {
-  background-image: url("../lab/lab8/img/tour/hamburg.jpg");
+  background-image: url("../img/tour/hamburg.jpg");
 }
 
 .krakow {
-  background-image: url("../lab/lab8/img/tour/krakow.jpg");
+  background-image: url("../img/tour/krakow.jpg");
 }
 
 .madrid,
@@ -180,7 +180,7 @@ h3 {
 /* Subscribe */
 #subscribe .container {
   margin-top: 45px;
-  background-image: url("../lab/lab8/img/bg-02.jpg");
+  background-image: url("../img/bg-02.jpg");
   height: 214px;
   background-position-y: center;
   background-size: 100% auto;
