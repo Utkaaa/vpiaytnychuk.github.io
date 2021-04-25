@@ -259,7 +259,7 @@ img {
 .social-icons div[class="bg-instagram"] {
   width: 40px;
   height: 40px;
-  background-image: url("/img/css_sprites.png");
+  background-image: url("../img/css_sprites.png");
   background-position: center;
   background-size: auto 100%;
   margin-left: -5px;
@@ -268,7 +268,7 @@ img {
 .social-icons div[class="bg-tiktok"] {
   width: 40px;
   height: 40px;
-  background-image: url("/img/css_sprites.png");
+  background-image: url("../img/css_sprites.png");
   background-position: left;
   background-size: auto 100%;
   margin-left: -10px;
@@ -277,7 +277,7 @@ img {
 .social-icons div[class="bg-facebook"] {
   width: 40px;
   height: 40px;
-  background-image: url("/img/css_sprites.png");
+  background-image: url("../img/css_sprites.png");
   background-position: right;
   background-size: auto 100%;
 }
