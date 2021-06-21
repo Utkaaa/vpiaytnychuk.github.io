@@ -181,6 +181,13 @@ h1, h2, h3, h4, h5, h6{
     flex-direction: column;
 }
 
+.border-section{
+    border: 1px solid grey;
+    border-bottom: 4px solid #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .section__tab a{
     display: flex;
     flex-flow: column;
@@ -198,13 +205,18 @@ h1, h2, h3, h4, h5, h6{
 
 /* About */
 .section__about{
-    padding-top: 50px;
+    margin-top: -52px;
 }
 
 .section__about img{
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    padding-top: 60px;
+    padding-left: calc(100%/8);
+    padding-right: calc(100%/8);
+    padding-bottom: 60px;
+    border: 1px solid rgb(126, 126, 126);
 }
 
 .section__about h1{
@@ -317,19 +329,23 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .outro__login{
-    width: 470px;
-    height: 110px;
+    width: 45%;
+    height: 100%;
+    padding-bottom: 10px;
     background-color: #e67624;
     border-radius: 7px;
+    float: left;
 }
 
 .outro__subscribe{
-    width: 470px;
-    height: 110px;
+    width: 45%;
+    height: 100%;
+    padding-bottom: 10px;
     background-color: #01d4f3;
     border-radius: 0;
     margin-left: 90px;
     border-radius: 7px;
+    float: left;
 }
 
 .outro h1{
